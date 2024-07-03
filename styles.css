@@ -1,0 +1,120 @@
+/* Resetting default styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: linear-gradient(rgb(255 255 255 / 83%), #ffffffe8), url(CC-Routes-1.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Container styles */
+.container2 {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #fff; /* Set container background to white */
+  border-radius: 10px;
+  /* Apply box-shadow for 3D effect */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.1);
+  margin: 50px auto; /* Center the container horizontally */
+}
+
+/* Headings and paragraphs */
+h1, p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Label styles */
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Dropdown styles */
+select,
+textarea {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  height: 40px; /* Increased height */
+}
+
+/* Button styles */
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #0056b3;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #0d6efd(0 0 0 / 76%);
+}
+.navbar-brand img {
+  max-width: 50%;
+}
+.navbar {
+  box-shadow: 0px 2px 4px rgba(171, 0, 0, 0.1); /* Add box shadow */
+}
+
+.navbar-nav {
+  width: 100%;
+  justify-content: center;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 20px;
+}
+
+.navbar-nav .nav-link {
+  color: #0d6efd; /* Main color set to black */
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 30px; /* Increase padding */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:active { /* Change color when clicked */
+  color: #0d6efd !important; /* Make the color change important */
+}
+
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+      margin: 0;
+  }
+}
+link {
+  color: #0d6efd(95, 95, 95, 0.9);
+}
+.logout-btn {
+  color: #0d6efd; /* White text color */
+  background-color: transparent; /* Transparent background color */
+  border: 2px solid #0d6efd; /* Blue border */
+  border-radius: 20px;
+  padding: 6px 21px;
+  cursor: pointer;
+  font-weight: 100px;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.logout-btn:hover {
+  background-color: #3184FD; /* Darker blue color on hover */
+  color: rgb(255, 255, 255);
+}
